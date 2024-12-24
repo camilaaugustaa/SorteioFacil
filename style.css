@@ -1,0 +1,134 @@
+body{
+    background-color: rgb(175, 204, 236);
+}
+
+.container_header{/*Cabeçalho*/
+    background-color: rgb(4, 61, 167);
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.container_header_conteudo{
+    background-color: rgb(62, 112, 204);
+}
+
+.container{
+    display: grid;/*cria um grid*/
+    grid-template-columns: auto auto;/*cria duas colunas*/
+    justify-content: center; /*alinha os elementos no centro*/
+    gap: 10px; /*distancia entre os elementos*/
+}
+
+.container_titulo1{
+    background-color: rgb(161, 0, 167);
+    height: 60px; /*altura do container*/
+    width: 450px;/*largura do container*/
+    border-radius: 20px;/*borda arredondada*/
+    text-align: center;/*alinha o texto no centro*/
+    font-family: Arial, sans-serif;
+    color: white
+;
+}
+.container_conteudo1{
+    background-color: rgb(255, 255, 255);
+    height: 550px;
+    width: 450px;
+    border-radius: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    border: solid 2px rgb(171, 4, 204);/*borda do container*/
+    color: black;
+    font-size: 20px;
+    
+}
+
+.container_sorteio1{
+    background-color: rgb(255, 255, 255);
+    height: 60px;
+    width: 350px;
+    border-radius: 20px;
+    margin-left: 50px;
+    border: solid 4px rgb(174, 27, 204);
+    text-align: center;/*alinha o texto no centro*/
+    font-family: Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+}
+
+
+.container_titulo2{/*body*/
+    background-color: rgb(1, 94, 1);
+    height: 60px;
+    width: 450px;
+    border-radius: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.container_conteudo2{
+    background-color: rgb(255, 255, 255);
+    height: 550px;
+    width: 450px;
+    border-radius: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    border: solid 2px rgb(1, 94, 1);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+.container_sorteio2{
+    background-color: rgb(255, 255, 255);
+    height: 60px;
+    width: 350px;
+    border-radius: 20px;
+    margin-left: 50px;
+    border: solid 4px rgb(1, 94, 1);
+    text-align: center;/*alinha o texto no centro*/
+    font-family: Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+}
+
+#sortearLotofacil{
+    background-color: rgb(174, 27, 204);
+    height: 30px;
+    width:  80px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgb(199, 21, 190);
+    padding: 0px 10px;
+    font-size: 15px;
+    color: white;
+    font-family: Arial, sans-serif;
+    border: none;
+    margin-top: 30px;
+}
+
+#sortearMegaSena{
+    background-color: rgb(1, 94, 1);
+    height: 30px;
+    width:  80px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgb(3, 180, 3);
+    padding: 0px 10px;
+    font-size: 15px;
+    color: white;
+    font-family: Arial, sans-serif;
+    border: none;
+    margin-top: 30px;
+}
+
+.container_footer{
+    background-color: rgb(62, 112, 204);
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin-top: 700px;
+    width: 800px;
+    height: 45px;
+    margin-left: 520px;
+    display: flex;
+    justify-content: center;
+}
